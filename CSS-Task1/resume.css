@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width:75%;
+  margin-left: 200px;
+}
+.sec-1{
+  width: 100%;
+  height: 20vh;
+  background-color: #565656;
+  padding-left: 45%;
+}
+
+.sec-2{
+  width: 100%;
+  height: 4vh;
+  background-color: #EEEEEE;
+}
+
+.sec-3{
+  width: 100%;
+  height: 3vh;
+  background-color: #565656;
+}
+
+.contact{
+  padding: 13px 0px 5px 30%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #767676;
+}
+
+header {
+  border: 1px solid#cacaca;
+}
+
+.profImage{
+  background-image: url('profilr-icon.png');
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 15px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: 3px dashed #F8BE27;
+  padding: 1px;
+}
+
+.profName{
+  position: relative;
+  left: -81px;
+  top: -18px;
+  background-color: #F8BE27;
+  font-size: 41px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 64px;
+  width: 311px;
+  padding-top: 11px;
+  padding-left: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #3b3b3b;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* body styling */
+
+.imgs{
+width: 30px;
+border: 3px dashed #F8BE27;
+border-radius: 50px;
+}
+.vl {
+  border-left: 2px solid #565656;
+  height: 860px;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.slider{
+  -webkit-appearance: none;
+  background-color:#FFEA61;
+  border:1px solid#cacaca;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: white;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #767676;
+}
+
